@@ -1,10 +1,12 @@
-# Signature-verification-using-deep-learning
+# **Signature-verification-using-deep-learning**
+
 Using SigComp'11 dataset for signature verification (With Siamese network and triplet loss) 
 
 ## Getting Started 
-Before starting with this tutorial, you should already have latest version of tensorflow and Keras installed(with Python 3). I have done all the work in Google Colab, which provides GPU for limited time. This repository contains 5 files- mycode.ipynb,siamese_net.h5, model.ipynb, test_model.ipynb, trial.ipynb. model and trial.ipynb files contains the detailed work, which are sequentially and neatly covered again in final_code.ipynb. The data and model parameter files are omitted, you have to train it yourselves. Should only refer to this file. For siamese network and triplet loss refer to mycode.ipynb. The model is saved in siamese_net.h5.
+Before starting with this tutorial, you should already have latest version of tensorflow and Keras installed(with Python 3). I have done all the work in Google Colab, which provides GPU for limited time. This repository contains 5 files- ```mycode.ipynb```,```siamese_net.h5```, ```model.ipynb```, ```test_model.ipynb```, ```trial.ipynb```. model and trial.ipynb files contains the detailed work, which are sequentially and neatly covered again in final_code.ipynb. The data and model parameter files are omitted, you have to train it yourselves. Should only refer to this file. For siamese network and triplet loss refer to ```mycode.ipynb```. The model is saved in ```siamese_net.h5```.
 
 ## Resources
+
 I am compiling all the resources here-
 #### http://www.iapr-tc11.org/mediawiki/index.php/ICDAR_2011_Signature_Verification_Competition_(SigComp2011)
 #### https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d
@@ -113,7 +115,3 @@ which I have deviced as per Convolutional neural networks course, deeplearning.a
 
 ## Comparison
 Posing verification task as multi-class classification, I have trained my small baseline model and InceptionV3 with transfer learning. InceptionV3 model gives much better performance than basline, as expected. But without regularization, it overfits, which is evident from validation. I haven't tested of my siamese network with other approches yet, will release it as soon as I get onto to it.
-
-## Few last words...
-Thank you for staying with me till the end. If you liked my repo and the work I have done, feel free to star this repo and follow me. I will make sure to bring out awesome deep learning projects like this in the future. Until the next time, **サヨナラ!** 
-###### PS: I am an anime fan ;)
